@@ -1,18 +1,18 @@
-/* Modern Dark Theme for ChatGPT Vault Search */
+/* Shades of Purple Theme for ChatGPT Vault Search */
 
 QMainWindow {
-    background-color: #2b2b2b;
+    background-color: #1e1e3f;
 }
 
 QWidget {
-    color: #e0e0e0;
+    color: #ffffff;
     font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif;
     font-size: 10pt;
 }
 
 QGroupBox {
     font-weight: bold;
-    border: 1px solid #444;
+    border: 1px solid #4d21b2;
     border-radius: 6px;
     margin-top: 12px;
     padding-top: 12px;
@@ -23,92 +23,96 @@ QGroupBox::title {
     subcontrol-position: top left;
     left: 10px;
     padding: 0 3px;
+    color: #a599e9;
 }
 
 QLineEdit {
-    background-color: #3c3f41;
-    border: 1px solid #555;
+    background-color: #2d2b55;
+    border: 1px solid #4d21b2;
     border-radius: 4px;
     padding: 5px;
     color: #fff;
 }
 
 QLineEdit:focus {
-    border: 1px solid #0078d4;
+    border: 1px solid #a599e9;
 }
 
 QPushButton {
-    background-color: #4b4b4b;
-    border: 1px solid #555;
+    background-color: #343261;
+    border: 1px solid #4d21b2;
     border-radius: 4px;
     padding: 6px 12px;
     min-width: 80px;
+    color: #ffffff;
 }
 
 QPushButton:hover {
-    background-color: #5a5a5a;
+    background-color: #4d21b2;
 }
 
 QPushButton:pressed {
-    background-color: #3a3a3a;
+    background-color: #1e1e3f;
 }
 
 QPushButton#search_btn {
-    background-color: #0078d4;
-    color: white;
+    background-color: #a599e9;
+    color: #1e1e3f;
     font-weight: bold;
 }
 
 QPushButton#search_btn:hover {
-    background-color: #1086e0;
+    background-color: #b362ff;
+    color: #ffffff;
 }
 
 QListWidget {
-    background-color: #323232;
-    border: 1px solid #444;
+    background-color: #2d2b55;
+    border: 1px solid #4d21b2;
     border-radius: 4px;
     outline: none;
 }
 
 QListWidget::item {
     padding: 10px;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #343261;
 }
 
 QListWidget::item:selected {
-    background-color: #2d5a88;
+    background-color: #4d21b2;
     color: white;
 }
 
 QListWidget::item:hover {
-    background-color: #3d3d3d;
+    background-color: #343261;
 }
 
 QTextEdit {
-    background-color: #323232;
-    border: 1px solid #444;
+    background-color: #2d2b55;
+    border: 1px solid #4d21b2;
     border-radius: 4px;
-    color: #dcdcdc;
+    color: #ffffff;
     font-family: "Consolas", "Monaco", monospace;
 }
 
 QProgressBar {
-    border: 1px solid #444;
+    border: 1px solid #4d21b2;
     border-radius: 4px;
     text-align: center;
+    color: #ffffff;
 }
 
 QProgressBar::chunk {
-    background-color: #0078d4;
+    background-color: #a599e9;
 }
 
 QStatusBar {
-    background-color: #2b2b2b;
-    color: #aaa;
+    background-color: #1e1e3f;
+    color: #a599e9;
 }
 
 QSplitter::handle {
-    background-color: #444;
+    background-color: #4d21b2;
 }
 
 QCheckBox {
@@ -118,4 +122,11 @@ QCheckBox {
 QCheckBox::indicator {
     width: 18px;
     height: 18px;
+    background-color: #2d2b55;
+    border: 1px solid #4d21b2;
+    border-radius: 3px;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #a599e9;
 }
